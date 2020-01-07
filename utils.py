@@ -781,7 +781,7 @@ def processEmail(email_contents, verbose=True, removeHeaders=False):
         print('Processed email:')
         print('----------------')
         print(' '.join(processed_email))
-    return word_indices
+    return processed_email, word_indices
 
 
 def emailFeatures(word_indices):
