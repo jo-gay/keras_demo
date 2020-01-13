@@ -1,5 +1,5 @@
 # Keras demonstration for Stockholm Machine Learning Club
-This repo contains the code used for a presentation giving a demonstration of Keras for beginners
+This repo contains the code used for a presentation giving a demonstration of Keras for beginners. WORK IN PROGRESS! Not ready to be used yet.
 
 Also required: Spam Assassin corpus available from https://github.com/dibgerge/ml-coursera-python-assignments/tree/master/Exercise6 (download whole Data folder)
 
