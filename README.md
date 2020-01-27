@@ -1,11 +1,18 @@
 # Keras demonstration for Stockholm Machine Learning Club
-This repo contains the code used for a demonstration of Keras for beginners. WORK IN PROGRESS!
+This repo contains the code used for a demonstration of Keras for beginners.
 
-If you want to follow along then you will need to complete several setup steps to be able to run the code in the Jupyter notebook (conda commands in brackets):
+If you want to follow along then you will need to complete the following setup steps to be able to run the code in the Jupyter notebook (there is a requirements.txt which gives my full setup, but I had a lot of trouble getting it to load into a new environment so I don't recommend it):
 
 - First clone the repo and enter the root folder keras_demo
-- Recommended: Create clean python 3.6 environment and activate it (<code>conda create -n keras_demo python=3.6</code>; <code>conda activate keras_demo</code>)
-- Install python and packages per requirements.txt (<code>conda install --file requirements.txt</code>). This will probably only work in Windows and with Conda. For other setups you can install, in this order, tensorflow, keras, pillow, matplotlib, jupyter, nb_conda. The latest version of keras seems to insist on installing theano, even though you already have tensorflow, which produces a ton of warnings in the shell. You can ignore these.
+- Create a python 3.6 environment, and install the given package versions: <code>conda create -c anaconda -n keras_demo python=3.6 numpy=1.16.5 tensorflow=1.13.2 keras=2.2.4 matplotlib jupyter nb_conda pillow </code>
 
-Then you should be able to run the jupyter notebook (type <code>jupyter notebook</code> to start the jupyter server (which will open a browser window), then open the file "Keras demo.ipynb"
+If you don't use conda then you need to install 
+- tensorflow
+- keras
+- pillow
+- matplotlib
+- jupyter
 
+The exact versions shouldn't matter, but depending on the combination of versions of keras, tensorflow and numpy, you may see various warnings in the notebook and / or in your shell. It should still work fine.
+
+Then you will be able to run the jupyter notebook (type <code>jupyter notebook</code> to start the jupyter server (which will open a browser window), and open the file "Keras demo.ipynb".
