@@ -4,7 +4,7 @@ This repo contains the code used for a demonstration of Keras for beginners.
 If you want to follow along then you will need to complete the following setup steps to be able to run the code in the Jupyter notebook (there is a requirements.txt which gives my full setup, but I had a lot of trouble getting it to load into a new environment so I don't recommend it):
 
 - First clone the repo and enter the root folder keras_demo
-- Create a python 3.6 environment, and install the given package versions: <code>conda create -c anaconda -n keras_demo python=3.6 numpy=1.16.5 tensorflow=1.13.2 keras=2.2.4 matplotlib jupyter nb_conda pillow </code>
+- Create a python 3.6 environment, and install the given package versions: <code>conda create -c anaconda -n keras_demo python=3.6 numpy=1.16 tensorflow=1.13 keras=2.2.4 matplotlib jupyter nb_conda pillow </code>
 
 If you don't use conda then you need to install 
 - tensorflow
